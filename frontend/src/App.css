@@ -1,0 +1,160 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background: #282c34;
+  padding: 10px;
+}
+
+nav a {
+  color: white;
+  margin-right: 15px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+h3 {
+  margin-top: 20px;
+}
+
+input {
+  display: block;
+  margin: 10px 0;
+  padding: 5px;
+  width: 100%;
+  max-width: 300px;
+}
+
+button {
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  max-width: 600px;
+  margin-top: 20px;
+}
+
+th,
+td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: left;
+}
+.booking-form-container {
+  width: 340px;
+  margin: 30px auto;
+  padding: 30px 25px 20px 25px;
+  border-radius: 9px;
+  background: #f5f7fa;
+  box-shadow: 0 2px 14px rgba(0,0,0,0.13);
+}
+
+.form-header {
+  text-align: center;
+  margin-bottom: 18px;
+}
+
+.booking-form {
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+}
+
+.form-input {
+  padding: 10px 8px;
+  border: 1px solid #b0b4be;
+  border-radius: 5px;
+  background: #fff;
+  font-size: 15px;
+}
+
+.form-btn {
+  background: #3a8dff;
+  color: #fff;
+  border: none;
+  padding: 10px 0;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 7px;
+  transition: background 0.2s;
+}
+
+.form-btn:hover {
+  background: #005fd1;
+}
+
+.form-message {
+  margin-top: 14px;
+  text-align: center;
+  color: #ff0000;
+  font-size: 16px;
+  font-weight: bold;
+  background: #ffe6e6;
+  padding: 10px;
+  border: 2px solid #ff0000;
+  border-radius: 5px;
+}
+.app-center-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  width: 100%;
+}
+.cancel-btn {
+  margin-left: 12px;
+  padding: 5px 12px;
+  background: #EF476F;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background 0.2s;
+}
+.cancel-btn:hover {
+  background: #d81349;
+}
+.user-bookings-container {
+  margin-top: 35px;
+  padding: 25px 20px;
+  border-radius: 9px;
+  background: #fff;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.09);
+}
+.admin-analytics-container {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 2px 8px rgba(30, 30, 30, 0.08);
+  padding: 24px;
+  margin: 20px auto;
+  max-width: 700px;
+}
+
+.admin-analytics-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 16px;
+}
+
+.admin-analytics-table th,
+.admin-analytics-table td {
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  text-align: left;
+}
+
+.admin-analytics-table th {
+  background: #f6f6f6;
+}
+
