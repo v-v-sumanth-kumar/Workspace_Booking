@@ -94,10 +94,10 @@ Backend -->|ORM Queries| DB
 ## Deployment
 
 - **Frontend:**
-  - Hosted on free-tier platforms like  Vercel
+  - Hosted on free-tier platforms like  Vercel (https://workspace-booking-six.vercel.app/)
 
 - **Backend:**
-  - Hosted on free-tier platforms such as Render
+  - Hosted on free-tier platforms such as Render(https://workspace-booking-1.onrender.com/)
 
 
 
