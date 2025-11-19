@@ -27,15 +27,12 @@ A full-stack workspace booking system designed to help organizations manage and 
 ### Installation
 
 1. Clone the repository:  
-git clone https://github.com/v-v-sumanth-kumar/WorkspaceBooking.git
-cd WorkspaceBooking
+git clone https://github.com/v-v-sumanth-kumar/Workspace_Booking.git   cd Workspace_Booking
 
-text
 
 2. Install dependencies:  
 npm install
 
-text
 
 3. Set up environment variables:  
 - Create a `.env` file in the root directory.  
@@ -44,15 +41,17 @@ text
 4. Run the application:  
 npm run dev
 
-text
 
 ## Deployment
 
-- Deploy the backend to Render using the provided instructions in the repository.  
+- Deploy the frontend on vercel using the provided instructions in the repository.
+- Deploy the backend on Render using the provided instructions in the repository.  
 - Ensure your PostgreSQL database is configured and accessible.  
 
 ## Usage
 
 - Users can log in and view available workspaces.  
 - Book a workspace for a specific date and time.  
-- Users can manage workspaces, and reservations.  
+- Users can manage workspaces, and reservations.
+
+**Note:** Due to free-tier hosting for both frontend and backend, the application may take up to a minute to start.
